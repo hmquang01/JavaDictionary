@@ -1,2 +1,0 @@
-# Image.png
-icon
