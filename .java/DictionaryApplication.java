@@ -209,11 +209,11 @@ public class DictionaryApplication extends DictionaryManagement {
 
         //label
         titleLabel.setFont(new Font("Verdana",Font.PLAIN,36));
-        titleLabel.setBounds(250,10,300,100);
+        titleLabel.setBounds(250,0,300,50);
 
-        searchTitle.setBounds(0,150,80,30);
+        searchTitle.setBounds(0,100,80,30);
 
-        targetLabel.setBounds(490,112,256,36);
+        targetLabel.setBounds(490,62,256,36);
         targetLabel.setFont(new Font("Verdana", Font.BOLD,14));
 
         //chuẩn bị cho button
@@ -238,7 +238,7 @@ public class DictionaryApplication extends DictionaryManagement {
         };
 
         //nút search
-        searchButton.setBounds(305,150,75,30);
+        searchButton.setBounds(305,100,75,30);
         searchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -255,7 +255,7 @@ public class DictionaryApplication extends DictionaryManagement {
             }
         });
         soundOn.setBorder(border);
-        soundOn.setBounds(430,126,24,24);
+        soundOn.setBounds(430,76,24,24);
         soundOn.setVisible(false);
         //nút thêm hoặc bỏ thêm My Words
         saveOn_Off.addActionListener(new ActionListener() {
@@ -284,7 +284,7 @@ public class DictionaryApplication extends DictionaryManagement {
             }
         });
         saveOn_Off.setBorder(border);
-        saveOn_Off.setBounds(400, 126, 24, 24);
+        saveOn_Off.setBounds(400, 76, 24, 24);
         saveOn_Off.setVisible(false);
 
         //nút trở lại từ điển chính
@@ -319,7 +319,7 @@ public class DictionaryApplication extends DictionaryManagement {
             }
         });
         PrevResult.setBorder(border);
-        PrevResult.setBounds(461, 120, 24, 24);
+        PrevResult.setBounds(461, 70, 24, 24);
         PrevResult.setVisible(false);
 
         //nút next từ search
@@ -331,7 +331,7 @@ public class DictionaryApplication extends DictionaryManagement {
             }
         });
         NextResult.setBorder(border);
-        NextResult.setBounds(746, 120, 24, 24);
+        NextResult.setBounds(746, 70, 24, 24);
         NextResult.setVisible(false);
 
         //TextField cho search
@@ -352,7 +352,7 @@ public class DictionaryApplication extends DictionaryManagement {
 
         });
         searchText.setFont(new Font("Verdana",Font.PLAIN,18));
-        searchText.setBounds(80,150,225,30);
+        searchText.setBounds(80,100,225,30);
 
         //List từ search
         selectionList.addMouseListener(new MouseAdapter() {
@@ -382,11 +382,11 @@ public class DictionaryApplication extends DictionaryManagement {
         selectionList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         selectionList.setForeground(Color.BLACK);
         selectionList.setModel(dictionarySearch(""));
-        listSP.setBounds(0,190,380,340);
+        listSP.setBounds(0,140,380,390);
 
         //TextPane cho Translate
         resultTextPane.setEditable(false);
-        resultScroll.setBounds(400,150,370,380);
+        resultScroll.setBounds(400,100,370,430);
 
 
         //AddItem
