@@ -9,5 +9,3 @@ HƯỚNG DẪN SỬ DỤNG TỪ ĐIỂN :
 - Cùng với từ điển Anh - Việt, chúng ta có từ điển Việt - Anh. Chuyển sang từ điển Việt - Anh bằng cách nhấn File / V_E Dictionary và ngược lại. Các thao tác ở từ điển Việt - Anh giống từ điển Anh - Việt.
 - Bên cạnh việc tra từ trong từ điển bằng những cách như trên, chúng ta có thể tra từ với Google Translate bằng cách nhấn File/Google Translate. Tuy nhiên, nếu máy tính của chúng ta không có mạng, chương trình sẽ hiện lên 1 thông báo và chúng ta không thể tra online.
 - Cuối cùng, nếu muốn xuất những từ ra 1 file riêng, có thể ấn File/ExportToFile và nhập tên file .txt muốn tạo và ấn OKE.
-
-Bọn em mới dùng git nên đôi chỗ còn sai sót. Mong mọi người thông cảm. 
